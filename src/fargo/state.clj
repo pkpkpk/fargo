@@ -57,7 +57,7 @@
 
 #!----------------------------------------------------------------------------------------------------------------------
 
-(defn check-resumable
+(defn check-resumable!
   [argo]
   (let [file (resumable-file argo)]
     (when (.exists file)
