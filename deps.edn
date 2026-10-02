@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :deps  {metosin/malli         {:mvn/version "0.20.1"}
+         metosin/jsonista      {:mvn/version "1.0.1"}
+         org.replikativ/hasch  {:mvn/version "0.4.104"}
+         ;clj-commons/clj-yaml  {:mvn/version "1.0.30"}
+         com.taoensso/telemere {:mvn/version "1.4.0"}}}
